@@ -39,6 +39,8 @@ gulp.task('build.prod', done =>
               'build.js.prod',
               'build.bundles',
               'build.index',
+              'build.revision.prod',
+              'build.rev.replace.prod',
               done));
 
 // --------------

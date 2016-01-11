@@ -17,6 +17,10 @@ export const ENABLE_HOT_LOADING   = !!argv['hot-loader'];
 export const HOT_LOADER_PORT      = 5578;
 
 export const BOOTSTRAP_MODULE     = ENABLE_HOT_LOADING ? 'hot_loader_bootstrap' : 'bootstrap';
+export const BOOTSTRAP_FILE       = 'bundles/app.js';
+export const BOOTSTRAP_INJECTED   = 'bundles/app';
+
+export const REV_MANIFEST         = 'rev-manifest.json';
 
 export const APP_TITLE            = 'My Angular2 App';
 
